@@ -25,7 +25,7 @@ let renderedOneTime = false;
 let snakeDirection = DIRECTION_RIGHT;
 let nextSnakeDirection = DIRECTION_RIGHT;
 let segmentToAdd = null;
-let canvasZoom = Number(localStorage.getItem(ZOOM_LS_KEY)) || 1;
+let canvasZoom = Number(localStorage.getItem(ZOOM_LS_KEY)) || 5;
 
 const context = canvas.getContext('2d');
 
